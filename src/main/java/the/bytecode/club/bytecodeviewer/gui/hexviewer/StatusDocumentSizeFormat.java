@@ -20,7 +20,7 @@ package the.bytecode.club.bytecodeviewer.gui.hexviewer;
 
 import org.exbin.bined.PositionCodeType;
 
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import javax.annotation.ParametersAreNonnullByDefault;
 import java.util.Objects;
 
