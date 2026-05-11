@@ -22,8 +22,7 @@ import org.exbin.bined.CodeAreaUtils;
 import org.exbin.bined.CodeCharactersCase;
 import org.exbin.bined.PositionCodeType;
 
-import javax.annotation.Nonnull;
-import javax.annotation.ParametersAreNonnullByDefault;
+import jakarta.annotation.Nonnull;
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
@@ -41,7 +40,6 @@ import java.util.Arrays;
 /**
  * Spinner supporting multiple bases.
  */
-@ParametersAreNonnullByDefault
 public class BaseSwitchableSpinnerPanel extends javax.swing.JPanel
 {
 
@@ -237,7 +235,6 @@ public class BaseSwitchableSpinnerPanel extends javax.swing.JPanel
         spinner.removeChangeListener(changeListener);
     }
 
-    @ParametersAreNonnullByDefault
     private class PositionSpinnerEditor extends JPanel implements ChangeListener, PropertyChangeListener, LayoutManager
     {
 

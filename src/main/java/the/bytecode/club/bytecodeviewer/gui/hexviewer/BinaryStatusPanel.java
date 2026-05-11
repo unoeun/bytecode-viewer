@@ -20,8 +20,7 @@ package the.bytecode.club.bytecodeviewer.gui.hexviewer;
 
 import org.exbin.bined.*;
 
-import javax.annotation.Nonnull;
-import javax.annotation.ParametersAreNonnullByDefault;
+import jakarta.annotation.Nonnull;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.datatransfer.Clipboard;
@@ -33,7 +32,6 @@ import java.awt.event.MouseEvent;
  *
  * @author hajdam
  */
-@ParametersAreNonnullByDefault
 public class BinaryStatusPanel extends javax.swing.JPanel implements BinaryStatusApi
 {
 

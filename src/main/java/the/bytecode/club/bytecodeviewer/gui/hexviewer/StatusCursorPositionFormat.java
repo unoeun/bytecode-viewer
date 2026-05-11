@@ -20,8 +20,7 @@ package the.bytecode.club.bytecodeviewer.gui.hexviewer;
 
 import org.exbin.bined.PositionCodeType;
 
-import javax.annotation.Nonnull;
-import javax.annotation.ParametersAreNonnullByDefault;
+import jakarta.annotation.Nonnull;
 import java.util.Objects;
 
 /**
@@ -29,7 +28,6 @@ import java.util.Objects;
  *
  * @author hajdam
  */
-@ParametersAreNonnullByDefault
 public class StatusCursorPositionFormat
 {
 

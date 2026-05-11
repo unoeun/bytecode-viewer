@@ -25,7 +25,7 @@ import org.exbin.bined.EditMode;
 import org.exbin.bined.RowWrappingMode;
 import org.exbin.bined.swing.basic.CodeArea;
 
-import javax.annotation.Nonnull;
+import jakarta.annotation.Nonnull;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
